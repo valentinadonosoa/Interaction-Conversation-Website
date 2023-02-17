@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Courier-Regular';
+    src: url(./fonts/CourierPrime-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier-Italic';
+    src: url(./fonts/CourierPrime-Italic.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier-Bold';
+    src: url(./fonts/CourierPrime-Bold.ttf);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.website{
+    background-color: black;
+    overflow: hidden;
+}
+
+.header{
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Courier-Bold';
+    margin:0;
+}
+
+.body-container{
+    border: 1px solid black;
+    background-color: white;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 550px;
+    overflow: scroll;
+}
+
+img{
+    width: 40px;
+    align-items: center;
+}
+
+img:hover {
+    cursor: pointer;
+  }
+
+h2{
+    font-family: 'Courier-Regular';
+    text-align: center;
+    font-size: medium;
+
+}
+
+.text-left{
+    font-family: 'Courier-Regular';
+    text-align: left;
+    line-height: 15px;
+}
+
+.text-right{
+    font-family: 'Courier-Regular';
+    text-align: right;
+    line-height: 15px;
+}
+
+span{
+    font-family: 'Courier-Italic';
+    font-size: medium;
+    background-color: lightgrey;
+    line-height: 15px;
+
+}
